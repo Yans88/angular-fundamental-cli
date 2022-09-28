@@ -1,0 +1,17 @@
+<h2>Form Passenger</h2>
+<form #passengerform="ngForm" (ngSubmit)="onClickSubmit(passengerform.value)">
+  <div class="mb-3">
+    <label for="id" class="form-label">ID</label>
+    <input type="text" class="form-control" ngModel id="id" name="id" placeholder="ID" disabled>
+  </div>
+  <div class="mb-3">
+    <label for="nama" class="form-label">Nama</label>
+    <input type="text" class="form-control" ngModel id="nama" name="nama" placeholder="Nama">
+  </div>
+  <div class="mb-3">
+    <label for="kota" class="form-label">Kota</label>
+    <input type="text" class="form-control" id="kota" name="kota" ngModel placeholder="Kota">
+  </div>
+  <button type="submit" class="btn btn-success btn-sm">Submit</button>
+</form>
+
