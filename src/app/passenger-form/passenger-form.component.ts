@@ -17,9 +17,9 @@ export class PassengerFormComponent implements OnInit {
   }
 
 
-
-  onClickSubmit(dt: any) {
+  onClickSubmit(dt: NgForm) {
     this.passengerService.add(dt);
+
   }
 
 }

@@ -10,6 +10,12 @@ import {PassengerComponent} from './passenger/passenger.component';
 import {PassengerFormComponent} from './passenger-form/passenger-form.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {PassengerServiceService} from '../app/passenger-service.service';
+import {AppNavbarComponent} from './app-navbar/app-navbar.component';
+import {HomeComponent} from './home/home.component';
+import {PricingComponent} from './pricing/pricing.component';
+import {AboutComponent} from './about/about.component';
+import {ContactComponent} from './contact/contact.component';
+import {PassengerDetailComponent} from './passenger-detail/passenger-detail.component';
 
 
 @NgModule({
@@ -18,7 +24,13 @@ import {PassengerServiceService} from '../app/passenger-service.service';
     StatusPipe,
     LengthArticlePipe,
     PassengerComponent,
-    PassengerFormComponent
+    PassengerFormComponent,
+    AppNavbarComponent,
+    HomeComponent,
+    PricingComponent,
+    AboutComponent,
+    ContactComponent,
+    PassengerDetailComponent
   ],
   imports: [
     BrowserModule,

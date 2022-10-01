@@ -28,6 +28,10 @@ export class PassengerServiceService {
     this.details[index] = data;
   }
 
+  public detailData(index: number) {
+    return this.details[index];
+  }
+
   public delete(index: number) {
     this.details.splice(index, 1)
   }

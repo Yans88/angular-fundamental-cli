@@ -13,16 +13,16 @@ export class PassengerComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.data)
+    this.data = this.passengerService.get();
   }
 
-  edit(index:number, dataEdit:any) {
-    dataEdit.id=index;
+  edit(index: number, dataEdit: any) {
+    dataEdit.id = index;
     console.log("dataEdit", dataEdit);
     this.passengerService.edit(index, dataEdit);
   }
 
-  delete(index:number){
+  delete(index: number) {
     this.passengerService.delete(index);
   }
 
