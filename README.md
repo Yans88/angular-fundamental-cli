@@ -1,12 +1,18 @@
 # angular-fundamental-cli
-=======
-# angular-fundamental-cli
-=======
-
-# MyApp
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
+
+============================
+# MyApp - Yansen
+
+<b>List Task</b>
+- FE Day 6 - Angular CLI (Command Line Interface)
+- FE Day 7 - Angular Modules and Components
+- FE Day 8 - Reactive State with NgRx
+- FE Day 9 - Routing in Angular
+
+
+===============================================================
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you
